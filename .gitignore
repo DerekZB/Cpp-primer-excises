@@ -1,10 +1,6 @@
 *.exe
 *.obj
 *.o
-ch01/ex1.01.clang
-ch01/ex1.02.result
 *.gcc
-ch01/ex1.02.clang
 *.clang
 *.clang
-ch01/ex1.02.clang
