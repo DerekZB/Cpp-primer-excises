@@ -248,3 +248,115 @@ C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.13_2.exe
 ```
 
 3.
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.13_3.exe
+1
+10
+1 2 3 4 5 6 7 8 9 10
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.13_3.exe
+10
+1
+10 9 8 7 6 5 4 3 2 1
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.13_3.exe
+5
+5
+5
+```
+
+
+### Ex1.14
+略
+
+### Ex1.15
+略
+
+### Ex1.16
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.16.exe
+1
+3
+5
+7
+^Z
+Sum is:16
+
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.16.exe
+1
+3
+a
+Sum is:4
+```
+
+### Ex1.17/1.18
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.17.exe
+42
+42
+42
+42
+42
+^Z
+42 occurs 5 times
+
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.17.exe
+42
+43
+42 occurs 1 times
+44
+43 occurs 1 times
+45
+44 occurs 1 times
+46
+45 occurs 1 times
+^Z
+46 occurs 1 times
+```
+
+### Ex1.19
+See Ex1.10  
+
+### Ex1.20
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.20.exe <add_item
+0-201-78345-X 3 60 20
+```
+
+### Ex1.21
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.21.exe <add_item
+0-201-78345-X 5 110 22
+```
+
+### Ex1.22
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.22.exe <add_item
+0-201-78345-X 10 253 25.3
+```
+
+### Ex1.23/1.24
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.22.exe <book_sales
+0-201-70353-X occurs 1 times
+0-201-82470-1 occurs 1 times
+0-201-88954-4 occurs 4 times
+0-399-82477-1 occurs 2 times
+0-201-78345-X occurs 2 times
+```
+
+### Ex1.25
+
+```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch01>ex1.25.exe <book_sales
+0-201-70353-X 4 99.96 24.99
+0-201-82470-1 4 181.56 45.39
+0-201-88954-4 16 198 12.375
+0-399-82477-1 5 226.95 45.39
+0-201-78345-X 5 110 22
+```
