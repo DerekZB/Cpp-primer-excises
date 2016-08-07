@@ -36,6 +36,18 @@ ex2.09.cpp(7): error C2065: “wage”: 未声明的标识符
 ### Ex2.10
 
 ```
+C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch02>cl /EHsc ex2.10.cpp
+用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.23506 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+ex2.10.cpp
+c:\users\binzh\documents\github\cpp-primer-excises\ch02\ex2.10.cpp(13) : warning C4700: 使用了未初始化的局部变量“local_int”
+Microsoft (R) Incremental Linker Version 14.00.23506.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:ex2.10.exe
+ex2.10.obj
+
 C:\Users\Binzh\Documents\GitHub\Cpp-primer-excises\ch02>ex2.10.exe
 
 0

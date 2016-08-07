@@ -80,4 +80,17 @@ to 0
  ```
  The easiest way to understand the type of r is to **read the definition right to left**. The symbol closest to the name of the variable is the one that has the most immediate effect on the variable’s type. Thus, we know that r is a reference. The rest of the declarator determines the type to which r refers. The next symbol, * in this case, says that the type r refers to is a pointer type. Finally, the base type of the declaration says that r is a reference to a pointer to an int.
 
- 
+## 2.4. const Qualifier
+ 1. Because we can’t change the value of a const object after we create it, it **must be initialized**. 
+ 2. const variables are defined as **local** to the file. When we define a const with the same name in multiple files, it is as if we had written definitions for separate variables in each file.
+ 3. To define a single instance of a const variable, we use the keyword extern on both its definition and declaration(s):  
+ ```c
+ // file_1.cc defines and initializes a const that is accessible to other files
+ extern const int bufSize = fcn();
+ // file_1.h
+ extern const int bufSize; // same bufSize as defined in file_1.cc
+ ```
+ To share a const object among multiple files, you must define the variable as extern.
+
+ 4. **References to const**
+  - To bind a reference to an object of a const type, we use a reference to const, which is a reference that refers to a const type.
